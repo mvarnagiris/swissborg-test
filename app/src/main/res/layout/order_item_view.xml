@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/bidAmountTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="4dp"
+        tools:text="0.1231862" />
+
+    <TextView
+        android:id="@+id/bidPriceTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:paddingHorizontal="4dp"
+        android:textColor="#0c0"
+        tools:text="11468" />
+
+    <TextView
+        android:id="@+id/askPriceTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="4dp"
+        android:textColor="#c00"
+        tools:text="11358" />
+
+    <TextView
+        android:id="@+id/askAmountTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:paddingHorizontal="4dp"
+        tools:text="0.68786" />
+
+</LinearLayout>
